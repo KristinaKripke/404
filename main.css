@@ -38,6 +38,7 @@ button {
     border-color: rgb(83, 117, 162);
     border-style: double;
     padding: 10px;
+    border-radius: 25px;
 }
 .div2 {
     width: 80%; 

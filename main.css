@@ -2,15 +2,22 @@
     box-sizing: border-box;
 }
 body {
+    
     background-color: #8D94BA;
     padding: 2%;
+    
+}
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .div3 {
     box-sizing: border-box;
-    background-color: blueviolet;
     width: 900px;
     height: 400px;
     display: inline-flex;
+    
 }
 .div1 {
     background-color: rgb(250, 250, 250); 
@@ -47,3 +54,34 @@ button {
     height: 100%;
     
 }
+
+
+@media (max-width: 800px) {
+    .div3 {
+        transform: scale(0.9);
+        transform-origin: top;
+        max-width: 100vw;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+}
+@media (max-width: 600px) {
+    .div3 {
+        transform: scale(0.6);
+        transform-origin: top;
+        max-width: 100vw;
+        max-height: 100vh;
+        overflow: hidden;
+    } 
+}
+@media (max-width: 480px) {
+    .div3 {
+        transform: scale(0.5);
+        transform-origin: top;
+        max-width: 100vw;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+}
+
+

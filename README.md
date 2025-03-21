@@ -1,4 +1,4 @@
-# Friday challenge
+# 404 page
 
 _website design project_
 
